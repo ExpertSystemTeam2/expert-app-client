@@ -26,13 +26,13 @@ const Navbar = () => {
 
   return (
     <>
-      <Box bg={useColorModeValue("gray.200", "gray.900")} px={4}>
-        <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
+      <Box bg={useColorModeValue("blue.700", "gray.900")} px={4}>
+        <Flex h={'10vh'} alignItems={"center"} justifyContent={"space-between"}>
           <Box mx={5}>
             <Text
               fontFamily={"Bebas Neue"}
               fontSize={[14, 20, 20, 24]}
-              color={color}
+              color={'white'}
             >
               Job Matcher
             </Text>
